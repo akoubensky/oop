@@ -12,8 +12,10 @@ public interface List<T> extends Iterable<T> {
 
   // Вставка нового элемента в начало списка
   void insert(T elem);
+  
   // Удаление элемента из начала списка
   T remove() throws IndexOutOfBoundsException;
+  
   // Количество элементов в списке
   int count();
   
