@@ -43,6 +43,13 @@ public class DateImpl1 implements Date {
   public DateImpl1(Date date) {
     this(date.getYear(), date.getMonth(), date.getDay());
   }
+  
+  /**
+   * Конструктор даты "начала компьютерной эры"
+   */
+  public DateImpl1() {
+	  this(1970, Month.JANUARY, 1);
+  }
 
   //-----------------------------------------------------------------------
   // Вспомогательные статические функции для арифметики дат.
