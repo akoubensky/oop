@@ -238,4 +238,5 @@ public class AList<E extends Comparable<E>> {
 		  System.out.println(list1);
 		  System.out.println(list2);
 	  }
+
 }
